@@ -1,0 +1,279 @@
+{
+    "mainSection": {
+        "subtitle": "Scoprire",
+        "title": "La Via Autentica verso la Siria",
+        "des": "Goditi il ricco patrimonio della Siria attraverso viaggi culturali selezionati. Dall'antica Palmira ai vivaci mercati di Damasco, scopri gemme nascoste con noi",
+        "button": "Esplora le Destinazioni"
+    },
+    "aboutUs": {
+        "pageTitle": "Informazioni su 963SY",
+        "sectionTitle": "Scopri la bellezza della Siria attraverso l'innovazione",
+        "intro": "L'app 963SY è un'applicazione sviluppata da ArtFly in collaborazione con il Ministero del Turismo siriano. Contribuisce all'attuazione del piano del Ministero per promuovere il turismo nelle aree turistiche e nei beni del paese.",
+        "features": {
+            "historicalSites": "Siti storici",
+            "culturalHeritage": "Patrimonio culturale",
+            "naturalLandscapes": "Paesaggi naturali",
+            "localCuisine": "Cucina locale",
+            "aerialPhotography": "Fotografia aerea",
+            "interactiveMaps": "Mappe interattive"
+        },
+        "description": "ArtFly è un'istituzione che ha svolto un ruolo significativo nel percorso di innovazione, fotografia, documentazione ed eccellenza nell'uso dei droni per la fotografia aerea. L'app 963SY fornisce un pacchetto informativo completo che porta il turismo a portata di mano di tutti.",
+        "quote": "\"L'app fornisce conoscenze sulla Siria, la sua storia, il patrimonio e i siti turistici, mostrandoli in video e foto speciali che riflettono la bellezza della #Siria e mettono in evidenza le esperienze emozionanti che si possono vivere lì.\"",
+        "highlightsTitle": "Cosa rende speciale 963SY",
+        "highlights": {
+            "tourismGuide": {
+                "title": "Guida turistica completa",
+                "text": "Portando il turismo a portata di mano di tutti, indipendentemente dalle capacità fisiche o linguistiche."
+            },
+            "documentation": {
+                "title": "Documentazione professionale",
+                "text": "Con video speciali e fotografia aerea che mostrano la bellezza della Siria attraverso la tecnologia innovativa dei droni."
+            },
+            "touristMap": {
+                "title": "Mappa turistica interattiva",
+                "text": "Sfoglia le località turistiche disponibili con accesso facile alle informazioni dettagliate su ogni singolo sito."
+            },
+            "culturalAwareness": {
+                "title": "Conoscenza culturale",
+                "text": "Aumentare la consapevolezza sulla bellezza, la storia, il patrimonio e il ruolo che ha nella promozione del turismo."
+            }
+        }
+    },
+    "navbar": {
+        "home": "Home",
+        "destination": "Destinazioni",
+        "services": "Esperienze",
+        "culture": "Cultura",
+        "about": "Chi Siamo",
+        "contact": "Contatti",
+        "searchPlaceholder": "Cerca destinazioni..."
+    },
+    "search": {
+        "loading": "Caricamento...",
+        "noResults": "Nessun risultato trovato"
+    },
+    "destinations": {
+        "title": "Esplora Bellissime Destinazioni",
+        "subtitle": "Scopri i luoghi più affascinanti in tutta la Siria",
+        "button": "Esplora Ora"
+    },
+    "services": {
+        "sectionTitle": "Servizi Siriani",
+        "sectionDescription": "Goditi l'essenza della cultura siriana autentica attraverso la nostra selezione accuratamente curata di esperienze locali",
+        "button": "Esplora di Più",
+        "sidebarTitle": "Servizi 963SY",
+        "selectCity": "Seleziona città",
+        "filterByRating": "Filtra per valutazione",
+        "all": "Tutti",
+        "noStarsAvailable": "Nessuna stella disponibile"
+    },
+    "culture": {
+        "button": "Esplora Destinazione",
+        "loading": "Caricamento dei luoghi culturali...",
+        "noPlaces": "Nessun luogo culturale disponibile",
+        "error": "Impossibile caricare i luoghi culturali"
+    },
+    "gallerySection": {
+        "title": "Scopri la Bellezza Naturale della Siria",
+        "label": "Destinazioni in Evidenza",
+        "exploreButton": "Esplora di Più"
+    },
+    "uploadApp": {
+        "downloadNow": "SCARICA ORA",
+        "title": "Ottieni la Nostra App Mobile",
+        "description": "Sperimenta una pianificazione di viaggio senza problemi con la nostra applicazione mobile ricca di funzionalità. Disponibile per dispositivi iOS e Android.",
+        "feature1": "Offerte esclusive solo per dispositivi mobili",
+        "feature2": "Esplorazione visiva immersiva",
+        "feature3": "Supporto per più lingue dei segni",
+        "appStoreAlt": "Scarica su App Store",
+        "playStoreAlt": "Scarica su Google Play"
+    },
+    "contact": {
+        "title": "Contattaci",
+        "subtitle": "Hai domande o hai bisogno di assistenza con i tuoi piani di viaggio in Siria? Contatta il nostro team di esperti che sono pronti ad aiutarti.",
+        "getInTouch": "Mettiti in Contatto",
+        "phone": {
+            "title": "Telefono",
+            "number": "+963 950 016 833"
+        },
+        "email": {
+            "title": "Email",
+            "address": "info@963sy.com"
+        },
+        "address": {
+            "title": "Indirizzo",
+            "location": "Piazza Al-Marjeh, Damasco, Siria"
+        },
+        "workingHours": {
+            "title": "Orari di Lavoro",
+            "mondayToThursday": "Aperto",
+            "fridaySaturday": "Tutti i giorni"
+        },
+        "sendMessage": "Inviaci un Messaggio",
+        "name": "Il Tuo Nome",
+        "emailAddress": "Indirizzo Email",
+        "subject": "Oggetto",
+        "message": "Il Tuo Messaggio",
+        "submitButton": "Invia Messaggio",
+        "successMessage": "Il tuo messaggio è stato inviato con successo. Ti risponderemo presto!",
+        "errorMessage": "Si è verificato un errore durante l'invio del messaggio. Per favore riprova più tardi."
+    },
+    "footer": {
+        "description": "La tua porta d'accesso al cuore della Siria. Scopri antiche meraviglie, cultura vibrante ed esperienze indimenticabili.",
+        "quickLinks": "Link Rapidi",
+        "support": "Supporto",
+        "contactUs": "Contattaci",
+        "address": "Siria, Damasco Jaramana, Via Al Naseem",
+        "phone": "+963 950 016 833",
+        "email": "info@963sy.com",
+        "privacy": "Informativa sulla Privacy",
+        "contact": "Contattaci",
+        "copyright": "Tutti i diritti riservati."
+    },
+    "destinationsSite": {
+        "title": "Scopri le Magnifiche Destinazioni della Siria",
+        "subtitle": "Immergiti nel ricco arazzo di meraviglie culturali e naturali della Siria",
+        "button": "Scopri di Più"
+    },
+    "cities": {
+        "featuredTitle": "Città Siriane in Evidenza"
+    },
+    "sites": {
+        "loadingSites": "Caricamento dei siti...",
+        "noSitesFound": "Nessun sito turistico trovato per questa località.",
+        "discoverSubtitle": "scopri {{categoryName}} di {{cityName}}"
+    },
+    "gallery2": {
+        "sectionTitle": "Esplora il Turismo in Siria",
+        "sectionSubtitle": "Scopri bellezza, cultura e storia in una delle destinazioni più belle del mondo.",
+        "items": [
+            {
+                "title": "Scopri la Siria",
+                "description": "Esplora il ricco patrimonio, paesaggi mozzafiato e antiche civiltà."
+            },
+            {
+                "title": "Eventi Culturali",
+                "description": "Festival e celebrazioni che mostrano musica, danza e tradizioni."
+            },
+            {
+                "title": "Siti Storici",
+                "description": "Rovine antiche, fortezze e monumenti archeologici in tutto il paese."
+            },
+            {
+                "title": "Cucina e Ospitalità",
+                "description": "Assapora deliziosi piatti siriani e goditi un'ospitalità senza pari."
+            },
+            {
+                "title": "Natura e Avventura",
+                "description": "Montagne, coste e deserti per viaggi indimenticabili."
+            },
+            {
+                "title": "Benefici Economici",
+                "description": "Il turismo stimola l'economia e fornisce opportunità di lavoro."
+            },
+            {
+                "title": "Turismo religioso",
+                "description": "Scopri monumenti religiosi e destinazioni spirituali."
+            },
+            {
+                "title": "Patrimonio Mondiale",
+                "description": "Siti UNESCO che riflettono l'impatto della Siria sulla civiltà mondiale."
+            },
+            {
+                "title": "Punti Panoramici per la Fotografia",
+                "description": "Dalle fortezze alle coste — luoghi perfetti per catturare foto di viaggio mozzafiato."
+            }
+        ],
+        "noItemsMessage": "Gli elementi della galleria non sono disponibili al momento."
+    },
+    "common": {
+        "explore": "Esplora",
+        "back": "Indietro"
+    },
+    "signVideo": {
+        "noVideo": "Nessun video in lingua dei segni disponibile"
+    },
+    "video": {
+        "noVideo": "Nessun video disponibile"
+    },
+    "siteInfo": {
+        "noDetailedInfo": "Nessuna informazione dettagliata disponibile per questo sito."
+    },
+    "imageGallery": {
+        "noImages": "Nessuna immagine disponibile per questo luogo.",
+        "of": "di"
+    },
+    "actions": {
+        "location": "Vai alla posizione",
+        "info": "Informazioni",
+        "sign": "Lingua dei segni",
+        "virtual": "Esplorazione virtuale",
+        "images": "Immagini",
+        "video": "Lettore video",
+        "videoPlayer2": "Lettore video 2"
+    },
+    "virtualVisit": {
+        "loading": "Caricamento del tour virtuale...",
+        "error": "Impossibile caricare il tour virtuale. Si prega di riprovare più tardi.",
+        "notAvailable": "Tour virtuale non disponibile per questa località",
+        "fullscreen": "Schermo intero"
+    },
+    "mainSwiper": {
+        "loading": "Caricamento dei luoghi in evidenza...",
+        "retrying": "Nuovo tentativo di caricamento dei luoghi in evidenza... ({{current}}/{{max}})",
+        "error": "Impossibile caricare i luoghi in evidenza",
+        "noPlaces": "Nessun luogo in evidenza disponibile"
+    },
+    "actionSection": {
+        "loading": "Caricamento in corso...",
+        "pleaseWait": "Attendere mentre carichiamo i dettagli."
+    },
+    "loadingCategoryInfo": "Attendere mentre carichiamo le informazioni sulla categoria",
+    "privacy": {
+        "title": "Informativa sulla Privacy",
+        "intro1": "ArtFly ha progettato l'app 963 come applicazione gratuita. Questo servizio è fornito da ArtFly senza alcun costo ed è destinato all'uso così com'è.",
+        "intro2": "Questa pagina viene utilizzata per informare i visitatori sulle nostre politiche riguardanti la raccolta, l'uso e la divulgazione delle informazioni personali se qualcuno decide di utilizzare il nostro Servizio.",
+        "intro3": "Se scegli di utilizzare il nostro Servizio, accetti tutte le informazioni relative a questa politica. Non utilizzeremo né condivideremo le tue informazioni con nessun'altra persona o azienda.",
+        "intro4": "I termini utilizzati in questa Informativa sulla Privacy hanno lo stesso significato che nei nostri Termini e Condizioni, accessibili sull'app 963 salvo diversa definizione in questa Informativa sulla Privacy.",
+        "collection": {
+            "title": "Raccolta e utilizzo delle informazioni",
+            "text": "Per offrirti un'esperienza sicura durante l'utilizzo del nostro Servizio, non ti chiederemo di fornirci informazioni personali identificabili o qualsiasi altro tipo di dato, né chiederemo il permesso di accedere al tuo dispositivo mobile. Le informazioni che richiediamo saranno conservate e utilizzate come descritto in questa Informativa sulla Privacy."
+        },
+        "cookies": {
+            "title": "Cookie",
+            "text1": "I cookie sono file che contengono piccole quantità di dati, comunemente utilizzati come identificatori unici anonimi. Vengono inviati al tuo browser dai siti web che visiti e memorizzati nella memoria interna del tuo dispositivo.",
+            "text2": "Questo servizio non utilizza mai i \"cookie\"."
+        },
+        "providers": {
+            "title": "Fornitori di servizi",
+            "text1": "Potremmo impiegare società e individui di terze parti per i seguenti motivi:",
+            "list1": "Per facilitare il nostro Servizio;",
+            "list2": "Per fornire il Servizio per nostro conto;",
+            "list3": "Per eseguire servizi correlati al Servizio;",
+            "list4": "Per aiutarci ad analizzare come viene utilizzato il nostro Servizio.",
+            "text2": "Vogliamo informare gli utenti di questo Servizio che queste terze parti non hanno accesso alle tue informazioni personali."
+        },
+        "security": {
+            "title": "Sicurezza",
+            "text": "L'applicazione non raccoglie alcuna informazione personale, non richiede il permesso di accedere a dati o informazioni mobili e non raccoglie alcuna informazione sulla tua posizione geografica."
+        },
+        "links": {
+            "title": "Collegamenti ad altri siti",
+            "text": "Questo Servizio può contenere collegamenti ad altri siti, comprese le nostre piattaforme di social media. Se fai clic su un collegamento di terze parti, verrai indirizzato a quel sito. Nota che questi siti esterni non sono gestiti da noi. Pertanto, ti consigliamo vivamente di consultare le politiche sulla privacy di questi siti. Non abbiamo alcun controllo e non ci assumiamo alcuna responsabilità per il contenuto, le politiche sulla privacy o le pratiche di siti web o servizi di terze parti."
+        },
+        "children": {
+            "title": "Privacy dei bambini",
+            "text": "Questo Servizio è disponibile per tutte le età e generi. Non mostra alcun contenuto dannoso e il contenuto è attivamente moderato."
+        },
+        "changes": {
+            "title": "Modifiche a questa Informativa sulla Privacy",
+            "text": "Potremmo aggiornare la nostra Informativa sulla Privacy di tanto in tanto. Pertanto, ti consigliamo di rivedere periodicamente questa pagina per eventuali modifiche. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla Privacy su questa pagina.",
+            "effective": "Questa politica è efficace dal 2023-06-17"
+        },
+        "contact": {
+            "title": "Contattaci",
+            "text": "Se hai domande o suggerimenti sulla nostra Informativa sulla Privacy, non esitare a contattarci a",
+            "email": "info@963sy.sy"
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.upload-app-section {
+    @apply  px-4  md:px-8 bg-gradient-to-br from-gray-50 to-white;
+  }
+
+ .upload-app-section .container {
+    @apply max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12;
+  }
+
+  .upload-app-section .text-content {
+    @apply flex-1 lg:pr-12;
+  }
+
+  .upload-app-section .section-label {
+    @apply text-primary-500 font-medium uppercase tracking-wider text-sm mb-4;
+  }
+
+  .upload-app-section .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-800 mb-6;
+  }
+
+  .section-description {
+    @apply text-gray-600 text-lg leading-relaxed mb-8 max-w-2xl;
+  }
+
+  .features-list {
+    @apply space-y-4 mb-10;
+  }
+
+  .feature-item {
+    @apply flex items-center gap-3;
+  }
+
+  .feature-icon {
+    @apply w-6 h-6 rounded-full bg-primary-500 text-white flex items-center justify-center;
+  }
+
+  .download-buttons {
+    @apply flex flex-wrap gap-4 mt-8;
+  }
+
+  .store-button {
+    @apply h-12 transition-transform duration-300 hover:scale-105;
+  }
+
+  .store-button img {
+    @apply h-full;
+  }
+
+  .mockup-container {
+    @apply flex-1 flex justify-center;
+  }
+
+  .phone-mockup {
+    @apply relative w-full ;
+  }
+
+  .mockup-image {
+    @apply w-full h-auto relative z-10;
+  }
+
+  .screen-content {
+    @apply absolute top-[5%] left-[6.5%] w-[87%] h-[90%] rounded-[2.5rem] overflow-hidden;
+    @apply bg-gray-100 flex items-center justify-center;
+  }
+
+  .app-screen {
+    @apply w-full h-full bg-gradient-to-br from-primary-100 to-primary-300;
+    /* Replace with your actual app screenshot */
+  }
+
+  /* Animation for the app screen */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .app-screen {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .container {
+      @apply flex-col;
+    }
+
+    .upload-app-section .text-content {
+      @apply text-center mb-12;
+    }
+
+    .section-description, .features-list {
+      @apply mx-auto;
+    }
+
+    .download-buttons {
+      @apply justify-center;
+    }
+  }

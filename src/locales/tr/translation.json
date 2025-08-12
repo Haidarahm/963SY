@@ -1,0 +1,289 @@
+{
+    "mainSection": {
+        "subtitle": "Keşfet",
+        "title": "Suriye'ye Giden Otantik Yol",
+        "des": "Suriye'nin zengin mirasını seçilmiş kültürel gezilerle keşfedin. Antik Palmira'dan Şam'ın canlı pazarlarına kadar, gizli mücevherleri bizimle keşfedin",
+        "button": "Destinasyonları Keşfedin"
+    },
+    "aboutUs": {
+        "pageTitle": "963SY Hakkında",
+        "sectionTitle": "İnovasyon ile Suriye'nin Güzelliğini Keşfedin",
+        "intro": "963SY uygulaması, ArtFly tarafından Suriye Turizm Bakanlığı ile işbirliği içinde geliştirilen bir uygulamadır. Bakanlığın ülkenin turistik bölgelerinde ve varlıklarında turizmi teşvik etme planının uygulanmasına katkıda bulunur.",
+        "features": {
+            "historicalSites": "Tarihi Yerler",
+            "culturalHeritage": "Kültürel Miras",
+            "naturalLandscapes": "Doğal Manzaralar",
+            "localCuisine": "Yerel Mutfak",
+            "aerialPhotography": "Hava Fotoğrafçılığı",
+            "interactiveMaps": "İnteraktif Haritalar"
+        },
+        "description": "ArtFly, inovasyon, fotoğrafçılık, belgeleme ve hava fotoğrafçılığı için drone kullanımında mükemmellik yolculuğunda önemli bir rol oynayan bir kurumdur. 963SY uygulaması, turizmi herkesin parmaklarının ucuna getiren kapsamlı bir bilgi paketi sunar.",
+        "quote": "\"Uygulama, Suriye, tarihi, mirası ve turistik yerleri hakkında bilgi sağlar ve bunları #Suriye'nin güzelliğini yansıtan ve orada yaşanabilecek heyecan verici deneyimleri vurgulayan özel videolar ve fotoğraflarla gösterir.\"",
+        "highlightsTitle": "963SY'yi Özel Kılan Nedir",
+        "highlights": {
+            "tourismGuide": {
+                "title": "Kapsamlı Turizm Rehberi",
+                "text": "Fiziksel veya dilsel yeteneklerinden bağımsız olarak turizmi herkesin parmaklarının ucuna getirmek."
+            },
+            "documentation": {
+                "title": "Profesyonel Belgeleme",
+                "text": "Yenilikçi drone teknolojisi aracılığıyla Suriye'nin güzelliğini sergileyen özel videolar ve hava fotoğrafçılığı."
+            },
+            "touristMap": {
+                "title": "İnteraktif Turist Haritası",
+                "text": "Her bir site hakkında ayrıntılı bilgilere kolay erişimle mevcut turistik yerleri keşfedin."
+            },
+            "culturalAwareness": {
+                "title": "Kültürel Farkındalık",
+                "text": "Suriye'nin güzel çekiciliklerine, tarihine, mirasına ve bunları korumanın önemine ilişkin farkındalığı artırmak."
+            }
+        },
+        "additionalInfo": {
+            "database": {
+                "title": "Eksiksiz Veritabanı",
+                "text": "Güzel yerel turistik cazibe merkezlerini ve siteleri, ayrıca Suriye'de gerçekleşen tüm etkinlikleri ve aktiviteleri tanımlamak için kapsamlı bir veritabanı sağlar."
+            },
+            "navigation": {
+                "title": "Kolay Gezinme",
+                "text": "Kullanıcılar, çeşitli yerler ve siteler için mevcut turistik haritaya göz atabilir ve her konum hakkında ayrıntılı bilgilerle bunlara kolayca ve hızlı bir şekilde erişebilir."
+            }
+        }
+    },
+    "navbar": {
+        "home": "Ana Sayfa",
+        "destination": "Destinasyonlar",
+        "services": "Deneyimler",
+        "culture": "Kültür",
+        "about": "Hakkında",
+        "contact": "İletişim",
+        "searchPlaceholder": "Destinasyonları ara..."
+    },
+    "search": {
+        "loading": "Yükleniyor...",
+        "noResults": "Sonuç bulunamadı"
+    },
+    "destinations": {
+        "title": "Güzel Destinasyonları Keşfedin",
+        "subtitle": "Suriye genelindeki en büyüleyici yerleri keşfedin",
+        "button": "Şimdi Keşfet"
+    },
+    "services": {
+        "sectionTitle": "Suriye Hizmetleri",
+        "sectionDescription": "Özenle seçilmiş yerel deneyimler koleksiyonumuzla otantik Suriye kültürünün özünü yaşayın",
+        "button": "Daha Fazla Keşfet",
+        "sidebarTitle": "963SY Hizmetleri",
+        "selectCity": "Şehir Seç",
+        "filterByRating": "Derecelendirmeye Göre Filtrele",
+        "all": "Tümü",
+        "noStarsAvailable": "Yıldız mevcut değil"
+    },
+    "culture": {
+        "button": "Destinasyonu Keşfet",
+        "loading": "Kültür yerleri yükleniyor...",
+        "noPlaces": "Kültür yeri bulunmamaktadır",
+        "error": "Kültür yerleri yüklenemedi"
+    },
+    "gallerySection": {
+        "title": "Suriye'nin Doğal Güzelliğini Keşfedin",
+        "label": "Öne Çıkan Destinasyonlar",
+        "exploreButton": "Daha Fazla Keşfet"
+    },
+    "uploadApp": {
+        "downloadNow": "ŞİMDİ İNDİR",
+        "title": "Mobil Uygulamamızı Edinin",
+        "description": "Özellik açısından zengin mobil uygulamamızla sorunsuz seyahat planlaması yaşayın. Hem iOS hem de Android cihazlar için mevcuttur.",
+        "feature1": "Yalnızca mobile özel fırsatlar",
+        "feature2": "Sürükleyici keşif için görsel dolaşım",
+        "feature3": "Birden fazla işaret dili desteği",
+        "appStoreAlt": "App Store'dan İndirin",
+        "playStoreAlt": "Google Play'den Edinin"
+    },
+    "contact": {
+        "title": "Bize Ulaşın",
+        "subtitle": "Suriye seyahat planlarınızla ilgili sorularınız mı var veya yardıma mı ihtiyacınız var? Size yardımcı olmaya hazır uzman ekibimizle iletişime geçin.",
+        "getInTouch": "İletişime Geçin",
+        "phone": {
+            "title": "Telefon",
+            "number": "+963 950 016 833"
+        },
+        "email": {
+            "title": "E-posta",
+            "address": "info@963sy.com"
+        },
+        "address": {
+            "title": "Adres",
+            "location": "Suriye, Şam, Jaramana, Al Naseem Caddesi"
+        },
+        "workingHours": {
+            "title": "Çalışma Saatleri",
+            "mondayToThursday": "Açık",
+            "fridaySaturday": "Her gün"
+        },
+        "sendMessage": "Bize Mesaj Gönderin",
+        "name": "Adınız",
+        "emailAddress": "E-posta Adresi",
+        "subject": "Konu",
+        "message": "Mesajınız",
+        "submitButton": "Mesaj Gönder",
+        "successMessage": "Mesajınız başarıyla gönderildi. En kısa sürede size geri döneceğiz!",
+        "errorMessage": "Mesajınızı gönderirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    },
+    "footer": {
+        "description": "Suriye'nin kalbine açılan kapınız. Antik harikalar, canlı kültür ve unutulmaz deneyimler keşfedin.",
+        "quickLinks": "Hızlı Bağlantılar",
+        "support": "Destek",
+        "contactUs": "Bize Ulaşın",
+        "address": "Suriye, Şam Jaramana, Al Naseem Caddesi",
+        "phone": "+963 950 016 833",
+        "email": "info@963sy.com",
+        "privacy": "Gizlilik Politikası",
+        "contact": "Bize Ulaşın",
+        "copyright": "Tüm hakları saklıdır."
+    },
+    "destinationsSite": {
+        "title": "Suriye'nin Muhteşem Destinasyonlarını Keşfedin",
+        "subtitle": "Suriye'nin kültürel ve doğal harikalarının zengin dokusuna kendinizi bırakın",
+        "button": "Daha Fazla Keşfet"
+    },
+    "cities": {
+        "featuredTitle": "Öne Çıkan Suriye Şehirleri"
+    },
+    "sites": {
+        "loadingSites": "Siteler yükleniyor...",
+        "noSitesFound": "Bu konum için turistik yer bulunamadı.",
+        "discoverSubtitle": "{{cityName}} şehrinin {{categoryName}} keşfedin"
+    },
+    "gallery2": {
+        "sectionTitle": "Suriye'de Turizmi Keşfedin",
+        "sectionSubtitle": "Dünyanın en güzel destinasyonlarından birinde güzellik, kültür ve tarihi keşfedin.",
+        "items": [
+            {
+                "title": "Suriye'yi Keşfedin",
+                "description": "Zengin mirası, etkileyici manzaraları ve eski uygarlıkları keşfedin."
+            },
+            {
+                "title": "Kültürel Etkinlikler",
+                "description": "Müzik, dans ve gelenekleri sergileyen festivaller ve kutlamalar."
+            },
+            {
+                "title": "Tarihi Sitler",
+                "description": "Ülke genelinde eski kalıntılar, kaleler ve arkeolojik anıtlar."
+            },
+            {
+                "title": "Mutfak ve Misafirperverlik",
+                "description": "Lezzetli Suriye yemeklerini tadın ve eşsiz misafirperverliğin keyfini çıkarın."
+            },
+            {
+                "title": "Doğa ve Macera",
+                "description": "Unutulmaz yolculuklar için dağlar, kıyılar ve çöller."
+            },
+            {
+                "title": "Ekonomik Faydalar",
+                "description": "Turizm ekonomiyi canlandırır ve iş fırsatları sağlar."
+            },
+            {
+                "title": "Dini Turizm",
+                "description": "Dini anıtları ve manevi destinasyonları keşfedin."
+            },
+            {
+                "title": "Dünya Mirası",
+                "description": "Suriye'nin dünya uygarlığına etkisini yansıtan UNESCO siteleri."
+            },
+            {
+                "title": "Fotoğraf İçin Manzaralı Noktalar",
+                "description": "Kalelerden kıyılara — etkileyici seyahat fotoğrafları çekmek için mükemmel yerler."
+            }
+        ],
+        "noItemsMessage": "Galeri öğeleri şu anda mevcut değil."
+    },
+    "common": {
+        "explore": "Keşfet",
+        "back": "Geri"
+    },
+    "signVideo": {
+        "noVideo": "İşaret dili videosu mevcut değil"
+    },
+    "video": {
+        "noVideo": "Video mevcut değil"
+    },
+    "siteInfo": {
+        "noDetailedInfo": "Bu site için ayrıntılı bilgi bulunmamaktadır."
+    },
+    "imageGallery": {
+        "noImages": "Bu yer için kullanılabilir görüntü yok.",
+        "of": "/"
+    },
+    "actions": {
+        "location": "Konuma Git",
+        "info": "Bilgi",
+        "sign": "İşaret Dili",
+        "virtual": "Sanal Gezinti",
+        "images": "Görseller",
+        "video": "Video Oynatıcı",
+        "videoPlayer2": "Video Oynatıcı 2"
+    },
+    "virtualVisit": {
+        "loading": "Sanal tur yükleniyor...",
+        "error": "Sanal tur yüklenemedi. Lütfen daha sonra tekrar deneyin.",
+        "notAvailable": "Bu konum için sanal tur mevcut değil",
+        "fullscreen": "Tam ekran"
+    },
+    "mainSwiper": {
+        "loading": "Öne çıkan yerler yükleniyor...",
+        "retrying": "Öne çıkan yerler yeniden yükleniyor... ({{current}}/{{max}})",
+        "error": "Öne çıkan yerler yüklenemedi",
+        "noPlaces": "Öne çıkan yer bulunmamaktadır"
+    },
+    "actionSection": {
+        "loading": "Yükleniyor...",
+        "pleaseWait": "Detayları yüklerken lütfen bekleyin."
+    },
+    "loadingCategoryInfo": "Kategori bilgilerini yüklerken lütfen bekleyin",
+    "privacy": {
+        "title": "Gizlilik Politikası",
+        "intro1": "ArtFly, 963 Uygulamasını ücretsiz bir uygulama olarak tasarlamıştır. Bu hizmet ArtFly tarafından ücretsiz olarak sunulmakta olup olduğu gibi kullanılmak üzere tasarlanmıştır.",
+        "intro2": "Bu sayfa, hizmetimizi kullanmaya karar veren ziyaretçileri, kişisel bilgilerin toplanması, kullanılması ve ifşa edilmesiyle ilgili politikalarımız hakkında bilgilendirmek için kullanılır.",
+        "intro3": "Hizmetimizi kullanmayı seçerseniz, bu politikayla ilgili tüm bilgilere onay vermiş olursunuz. Bilgilerinizi başka bir kişi veya şirketle kullanmayacak veya paylaşmayacağız.",
+        "intro4": "Bu Gizlilik Politikasında kullanılan terimler, aksi belirtilmedikçe, 963 Uygulamasında erişilebilen Şartlar ve Koşullarımızdaki anlamlarla aynıdır.",
+        "collection": {
+            "title": "Bilgi Toplama ve Kullanımı",
+            "text": "Hizmetimizi kullanırken size güvenli bir deneyim sunmak için, sizden kişisel olarak tanımlanabilir bilgi veya başka herhangi bir veri istemeyeceğiz, ayrıca mobil cihazınıza erişim izni de istemeyeceğiz. Talep ettiğimiz bilgiler, bu Gizlilik Politikasında açıklandığı şekilde saklanacak ve kullanılacaktır."
+        },
+        "cookies": {
+            "title": "Çerezler",
+            "text1": "Çerezler, genellikle anonim benzersiz tanımlayıcılar olarak kullanılan küçük miktarda veri içeren dosyalardır. Ziyaret ettiğiniz web sitelerinden tarayıcınıza gönderilir ve cihazınızın dahili belleğinde saklanır.",
+            "text2": "Bu hizmet asla \"çerez\" kullanmaz."
+        },
+        "providers": {
+            "title": "Hizmet Sağlayıcılar",
+            "text1": "Aşağıdaki nedenlerle üçüncü taraf şirketler ve bireyler çalıştırabiliriz:",
+            "list1": "Hizmetimizi kolaylaştırmak için;",
+            "list2": "Hizmeti bizim adımıza sunmak için;",
+            "list3": "Hizmetle ilgili hizmetleri yerine getirmek için;",
+            "list4": "Hizmetimizin nasıl kullanıldığını analiz etmemize yardımcı olmak için.",
+            "text2": "Bu hizmetin kullanıcılarını, bu üçüncü tarafların kişisel bilgilerinize erişimi olmadığı konusunda bilgilendirmek isteriz."
+        },
+        "security": {
+            "title": "Güvenlik",
+            "text": "Uygulama hiçbir kişisel bilgi toplamaz, mobil veri veya bilgiye erişim izni istemez ve coğrafi konumunuz hakkında herhangi bir bilgi toplamaz."
+        },
+        "links": {
+            "title": "Diğer Sitelere Bağlantılar",
+            "text": "Bu hizmet, sosyal medya platformlarımız da dahil olmak üzere diğer sitelere bağlantılar içerebilir. Bir üçüncü taraf bağlantısına tıklarsanız, o siteye yönlendirilirsiniz. Bu harici sitelerin bizim tarafımızdan işletilmediğini unutmayın. Bu nedenle, bu sitelerin gizlilik politikalarını gözden geçirmenizi önemle tavsiye ederiz. Üçüncü taraf web sitelerinin veya hizmetlerinin içeriği, gizlilik politikaları veya uygulamaları üzerinde hiçbir kontrolümüz yoktur ve sorumluluk kabul etmiyoruz."
+        },
+        "children": {
+            "title": "Çocukların Gizliliği",
+            "text": "Bu hizmet tüm yaş ve cinsiyetlere açıktır. Zararlı hiçbir içerik gösterilmez ve içerik aktif olarak denetlenir."
+        },
+        "changes": {
+            "title": "Gizlilik Politikasındaki Değişiklikler",
+            "text": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Bu nedenle, herhangi bir değişiklik için bu sayfayı periyodik olarak gözden geçirmeniz önerilir. Herhangi bir değişiklikten sizi haberdar etmek için yeni Gizlilik Politikasını bu sayfada yayınlayacağız.",
+            "effective": "Bu politika 2023-06-17 tarihinden itibaren geçerlidir"
+        },
+        "contact": {
+            "title": "Bize Ulaşın",
+            "text": "Gizlilik Politikamız hakkında herhangi bir sorunuz veya öneriniz varsa, lütfen bizimle şu adresten iletişime geçmekten çekinmeyin",
+            "email": "info@963sy.sy"
+        }
+    }
+}

@@ -1,0 +1,304 @@
+.navbar-container {
+  @apply bg-black/40  backdrop-blur-sm py-4 px-8 h-16 fixed w-full top-0 z-[1000] flex justify-between items-center transition-all duration-300 border-b border-white/10;
+}
+
+.logo {
+  @apply text-primary-500 text-3xl font-bold cursor-pointer flex items-center;
+}
+
+.logo span {
+  @apply text-white ml-1;
+}
+
+.menu {
+  @apply flex list-none items-center;
+}
+
+.menu-item {
+  @apply mx-4 relative;
+}
+
+.menu-item a {
+  @apply text-white no-underline font-medium text-base uppercase tracking-wider transition-all duration-300 py-2;
+}
+
+.menu-item a:hover {
+  @apply text-primary-500;
+}
+
+.menu-item a::after {
+  @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-primary-500 transition-all duration-300;
+}
+
+.menu-item a:hover::after {
+  @apply w-full;
+}
+
+.mobile-menu-button {
+  @apply hidden text-white text-2xl cursor-pointer z-[1002];
+}
+
+.right-section {
+  @apply flex items-center gap-6;
+}
+
+.language-selector {
+  @apply relative text-white cursor-pointer flex items-center gap-1 font-medium;
+}
+
+.language-selector:hover {
+  @apply text-primary-500;
+}
+
+.language-dropdown {
+  @apply absolute top-full right-0 bg-white rounded shadow-lg overflow-hidden min-w-[100px];
+}
+
+.language-option {
+  @apply py-2 px-4 text-gray-800 text-sm transition-colors duration-200;
+}
+
+.language-option:hover {
+  @apply bg-gray-100;
+}
+
+/* Search Styles */
+.search-container {
+  @apply relative;
+}
+
+.search-icon {
+  @apply text-white text-lg cursor-pointer transition-all duration-300;
+}
+
+.search-icon:hover {
+  @apply text-primary-500 scale-110;
+}
+
+.search-input-container {
+  @apply absolute top-full right-0 mt-2 bg-white rounded-lg shadow-xl overflow-hidden min-w-[300px] z-[1003];
+  animation: slideDown 0.3s ease-out;
+}
+
+.search-input-container.rtl {
+  @apply left-0 right-auto;
+}
+
+.search-form {
+  @apply flex items-center;
+}
+
+.search-input {
+  @apply flex-1 px-4 py-3 text-gray-700 text-sm border-none outline-none bg-transparent;
+}
+
+.search-input[dir="rtl"] {
+  @apply text-right;
+}
+
+.search-input::placeholder {
+  @apply text-gray-400;
+}
+
+.search-submit {
+  @apply p-3 text-primary-500 bg-transparent border-none cursor-pointer transition-all duration-300 hover:bg-primary-500/10;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    @apply fixed top-0 left-[-100%] w-4/5 h-screen bg-white flex-col justify-center items-center transition-all duration-500 z-[1001] p-0 m-0 shadow-xl;
+    border-right: 1px solid rgba(242, 106, 27, 0.1);
+  }
+
+  .menu.open {
+    @apply left-0;
+  }
+
+  .menu-item {
+    @apply my-4 mx-0 w-full text-center;
+  }
+
+  .menu-item a {
+    @apply text-gray-700 no-underline font-medium text-base uppercase tracking-wider transition-all duration-300 py-2 px-4;
+  }
+
+  .menu-item a:hover {
+    @apply text-primary-500 bg-primary-500/10;
+  }
+
+  .menu-item a.active {
+    @apply text-primary-500 bg-primary-500/10;
+  }
+
+  .mobile-menu-button {
+    @apply block;
+  }
+
+  .search-input-container {
+    @apply min-w-[280px] right-0;
+        top: 45px !important;
+    right: -150px !important;
+  }
+}
+
+.menu-item a.active {
+  @apply text-primary-500;
+}
+
+.navbar-container.scrolled .menu-item a::after {
+  @apply content-[''] hidden bottom-0 left-0 w-0 h-0.5 bg-primary-500 transition-all duration-300;
+}
+
+.navbar-container.scrolled {
+  @apply bg-white/90 backdrop-blur-lg py-3 px-6 h-16 fixed w-full top-0 z-[1000] flex justify-between items-center transition-all duration-300 shadow-sm;
+  border-bottom: 1px solid rgba(242, 106, 27, 0.1);
+}
+
+.navbar-container.scrolled .logo span {
+  @apply text-gray-800 ml-1;
+}
+
+.navbar-container.scrolled .menu-item a {
+  @apply text-gray-700 no-underline font-medium text-sm tracking-wide transition-all duration-300 py-2 px-3 rounded-lg;
+}
+
+.navbar-container.scrolled .menu-item a:hover {
+  @apply text-primary-500 bg-primary-500/10;
+}
+
+.navbar-container.scrolled .menu-item a.active {
+  @apply text-primary-500 bg-primary-500/10;
+}
+
+.navbar-container.scrolled .language-selector {
+  @apply relative text-gray-700 cursor-pointer flex items-center gap-1 font-medium hover:text-primary-500;
+}
+
+.navbar-container.scrolled .language-dropdown {
+  @apply absolute top-full right-0 bg-white rounded-lg shadow-xl overflow-hidden min-w-[120px] border border-gray-100;
+}
+
+.navbar-container.scrolled .language-option {
+  @apply py-2 px-4 text-gray-700 text-sm transition-colors duration-200 hover:bg-primary-500/10;
+}
+
+/* Scrolled Search Styles */
+.navbar-container.scrolled .search-icon {
+  @apply text-gray-700 text-lg cursor-pointer transition-all duration-300 hover:text-primary-500 hover:scale-110;
+}
+
+.navbar-container.scrolled .search-input-container {
+  @apply bg-white border border-gray-100;
+}
+
+.navbar-container.scrolled .search-input {
+  @apply text-gray-700;
+}
+
+.navbar-container.scrolled .search-input::placeholder {
+  @apply text-gray-400;
+}
+
+.navbar-container.scrolled .search-submit {
+  @apply text-primary-500 hover:bg-primary-500/10;
+}
+
+.navbar-container.scrolled .mobile-menu-button {
+  @apply text-gray-700;
+}
+/* .navbar-container {
+    @apply bg-white/90 backdrop-blur-lg py-3 px-6 h-16 fixed w-full top-0 z-[1000] flex justify-between items-center transition-all duration-300 shadow-sm;
+    border-bottom: 1px solid rgba(242, 106, 27, 0.1);
+  }
+
+  .navbar-container.scrolled {
+    @apply bg-white/95 shadow-md;
+    border-bottom: 1px solid rgba(242, 106, 27, 0.2);
+  }
+
+  .logo {
+    @apply text-primary-500 text-2xl font-bold cursor-pointer flex items-center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .logo span {
+    @apply text-gray-800 ml-1;
+  }
+
+  .menu {
+    @apply flex list-none items-center;
+  }
+
+  .menu-item {
+    @apply mx-3 relative;
+  }
+
+  .menu-item a {
+    @apply text-gray-700 no-underline font-medium text-sm tracking-wide transition-all duration-300 py-2 px-3 rounded-lg;
+  }
+
+  .menu-item a:hover {
+    @apply text-primary-500 bg-primary-500/10;
+  }
+
+  .menu-item a.active {
+    @apply text-primary-500 bg-primary-500/10;
+  }
+
+  .mobile-menu-button {
+    @apply hidden text-gray-700 text-2xl cursor-pointer z-[1002] hover:text-primary-500;
+  }
+
+  .right-section {
+    @apply flex items-center gap-4;
+  }
+
+  .language-selector {
+    @apply relative text-gray-700 cursor-pointer flex items-center gap-1 font-medium hover:text-primary-500;
+  }
+
+  .language-dropdown {
+    @apply absolute top-full right-0 bg-white rounded-lg shadow-xl overflow-hidden min-w-[120px] border border-gray-100;
+  }
+
+  .language-option {
+    @apply py-2 px-4 text-gray-700 text-sm transition-colors duration-200 hover:bg-primary-500/10;
+  }
+
+  .search-icon {
+    @apply text-gray-700 text-lg cursor-pointer transition-all duration-300 hover:text-primary-500 hover:scale-110;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      @apply fixed top-0 left-[-100%] w-4/5 h-screen bg-white flex-col justify-center items-center transition-all duration-500 z-[1001] p-0 m-0 shadow-xl;
+      border-right: 1px solid rgba(242, 106, 27, 0.1);
+    }
+
+    .menu.open {
+      @apply left-0;
+    }
+
+    .menu-item {
+      @apply my-3 mx-0 w-full text-center;
+    }
+
+    .menu-item a {
+      @apply block py-3 px-6 w-full;
+    }
+
+    .mobile-menu-button {
+      @apply block;
+    }
+  } */

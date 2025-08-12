@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rtl {
+  direction: rtl;
+}
+.ltr {
+  direction: ltr;
+}
+
+/* Add custom spinner styles to your global CSS */
+.custom-spinner .ant-spin-dot-item {
+  background-color: #f26a1b !important;
+}
+
+/* This targets all Ant Design spinners globally */
+.ant-spin-dot-item {
+  background-color: #f26a1b !important;
+}
+/* spinner loading */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid rgba(242, 106, 27, 0.1);
+  border-top-color: #f26a1b;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+/* spinner loading */

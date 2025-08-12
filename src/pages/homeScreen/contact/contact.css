@@ -1,0 +1,191 @@
+.contact-section {
+  @apply py-20 px-8 bg-gray-50 relative;
+}
+
+.contact-section .section-header {
+  @apply text-center mb-12;
+}
+
+.contact-section .section-title {
+  @apply text-4xl mb-4 text-gray-800 relative;
+}
+
+.contact-section .section-title::after {
+  @apply content-[''] absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 rounded
+           bg-gradient-to-r from-primary-500 to-primary-400;
+}
+
+.contact-section .section-subtitle {
+  @apply text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed;
+}
+
+.contact-section .contact-content {
+  @apply max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12;
+}
+
+.contact-info {
+  @apply space-y-6;
+}
+
+.contact-info h3 {
+  @apply text-3xl mb-6 text-gray-800;
+}
+
+.info-item {
+  @apply flex items-start;
+}
+
+.info-item svg {
+  @apply text-primary-500 text-2xl mr-6 mt-1;
+}
+
+.info-item h4 {
+  @apply text-xl mb-2 text-gray-800;
+}
+
+.info-item p,
+.info-item a {
+  @apply text-gray-600 leading-relaxed transition-colors duration-300;
+}
+
+.info-item a:hover {
+  @apply text-primary-500;
+}
+
+.contact-form {
+  @apply bg-white p-10 rounded-xl shadow-lg -order-1 md:order-1;
+}
+
+.contact-form h3 {
+  @apply text-3xl mb-8 text-gray-800;
+}
+
+.form-group {
+  @apply mb-6;
+}
+
+.form-group label {
+  @apply block mb-2 text-gray-800 font-medium;
+}
+
+.form-group input,
+.form-group textarea {
+  @apply w-full p-4 border border-gray-300 rounded-lg text-base transition-all duration-300;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  @apply outline-none border-primary-500 ring-2 ring-primary-500/20;
+}
+
+.form-group textarea {
+  @apply min-h-[150px] resize-y;
+}
+
+.contact-section .submit-button {
+  @apply bg-gradient-to-r from-primary-500 to-primary-400 text-white border-none px-8 py-4
+           text-lg font-semibold rounded-lg cursor-pointer transition-all duration-300 flex
+           items-center gap-2 hover:-translate-y-1 hover:shadow-lg;
+}
+/* Loading spinner styles */
+.loading-spinner-contact {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Alternative loading spinner with dots */
+.loading-spinner-contact-dots {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.loading-spinner-contact-dots::before,
+.loading-spinner-contact-dots::after,
+.loading-spinner-contact-dots {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  animation: pulse 1.4s ease-in-out infinite both;
+}
+
+.loading-spinner-contact-dots::before {
+  animation-delay: -0.32s;
+}
+
+.loading-spinner-contact-dots::after {
+  animation-delay: -0.16s;
+}
+
+@keyframes pulse {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+/* Enhanced submit button with loading state */
+.submit-button {
+  background-color: #F26A1B;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #e05a0b;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(242, 106, 27, 0.3);
+}
+
+.submit-button:disabled {
+  background-color: #f2894b;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Alternative pulsing loader */
+.loading-spinner-contact-pulse {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  animation: pulse-scale 1s ease-in-out infinite;
+}
+
+@keyframes pulse-scale {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}

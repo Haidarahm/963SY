@@ -1,0 +1,34 @@
+
+.gallery-section-2 {
+    @apply relative text-white py-[100px] h-full flex items-center;
+  }
+
+/* AOS Animation Enhancements for Gallery2 */
+[data-aos="fade-up"] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered animation effect */
+.gallery-section-2 .grid > div {
+  will-change: transform, opacity;
+}
+
+/* Enhanced hover effects */
+.gallery-section-2 .grid > div:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth transition for all elements */
+.gallery-section-2 * {
+  transition: all 0.3s ease;
+}
+

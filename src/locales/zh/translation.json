@@ -1,0 +1,289 @@
+{
+    "mainSection": {
+        "subtitle": "探索",
+        "title": "通往叙利亚的正宗之路",
+        "des": "通过精选的文化之旅，尽享叙利亚丰富的遗产。从古老的帕尔米拉到大马士革充满活力的集市，与我们一起发现隐藏的瑰宝",
+        "button": "探索目的地"
+    },
+    "aboutUs": {
+        "pageTitle": "关于963SY",
+        "sectionTitle": "通过创新发现叙利亚的美丽",
+        "intro": "963SY应用程序是由ArtFly与叙利亚旅游部合作开发的应用程序。它有助于实施该部促进该国旅游区和资产旅游业的计划。",
+        "features": {
+            "historicalSites": "历史遗址",
+            "culturalHeritage": "文化遗产",
+            "naturalLandscapes": "自然景观",
+            "localCuisine": "当地美食",
+            "aerialPhotography": "航空摄影",
+            "interactiveMaps": "互动地图"
+        },
+        "description": "ArtFly是一家在创新、摄影、文档和无人机航空摄影卓越使用方面发挥重要作用的机构。963SY应用程序提供全面的信息包，让旅游触手可及。",
+        "quote": "\"该应用程序提供有关叙利亚、其历史、遗产和旅游景点的知识，通过特殊视频和照片展示#叙利亚的美丽，并突出可以在那里享受的令人兴奋的体验。\"",
+        "highlightsTitle": "是什么让963SY与众不同",
+        "highlights": {
+            "tourismGuide": {
+                "title": "全面的旅游指南",
+                "text": "让旅游触手可及，无论其身体或语言能力如何。"
+            },
+            "documentation": {
+                "title": "专业文档",
+                "text": "通过创新的无人机技术，特色视频和航空摄影展示叙利亚的美丽。"
+            },
+            "touristMap": {
+                "title": "互动旅游地图",
+                "text": "浏览可用的旅游地点，轻松获取每个景点的详细信息。"
+            },
+            "culturalAwareness": {
+                "title": "文化意识",
+                "text": "提高对叙利亚美丽景点、历史、遗产及其保护重要性的认识。"
+            }
+        },
+        "additionalInfo": {
+            "database": {
+                "title": "完整数据库",
+                "text": "提供全面的数据库，以识别美丽的当地旅游景点和场所，以及在叙利亚举行的所有活动。"
+            },
+            "navigation": {
+                "title": "轻松导航",
+                "text": "用户可以浏览各种地点和场所的可用旅游地图，并轻松快速地访问它们，获取每个地点的详细信息。"
+            }
+        }
+    },
+    "navbar": {
+        "home": "首页",
+        "destination": "目的地",
+        "services": "体验",
+        "culture": "文化",
+        "about": "关于我们",
+        "contact": "联系我们",
+        "searchPlaceholder": "搜索目的地..."
+    },
+    "destinations": {
+        "title": "探索美丽目的地",
+        "subtitle": "发现叙利亚最迷人的地方",
+        "button": "立即探索"
+    },
+    "services": {
+        "sectionTitle": "叙利亚服务",
+        "sectionDescription": "通过我们精心策划的本地体验，尽享地道叙利亚文化的精髓",
+        "button": "探索更多",
+        "sidebarTitle": "963SY 服务",
+        "selectCity": "选择城市",
+        "filterByRating": "按评分筛选",
+        "all": "全部",
+        "noStarsAvailable": "没有可用的星级"
+    },
+    "culture": {
+        "button": "探索目的地",
+        "loading": "正在加载文化场所...",
+        "noPlaces": "没有可用的文化场所",
+        "error": "加载文化场所失败"
+    },
+    "gallerySection": {
+        "title": "发现叙利亚的自然美景",
+        "label": "精选目的地",
+        "exploreButton": "探索更多"
+    },
+    "uploadApp": {
+        "downloadNow": "立即下载",
+        "title": "获取我们的移动应用",
+        "description": "通过我们功能丰富的移动应用程序体验无缝旅行规划。适用于iOS和Android设备。",
+        "feature1": "移动端专属优惠",
+        "feature2": "沉浸式视觉探索",
+        "feature3": "支持多种手语",
+        "appStoreAlt": "从App Store下载",
+        "playStoreAlt": "从Google Play获取"
+    },
+    "contact": {
+        "title": "联系我们",
+        "subtitle": "对叙利亚旅行计划有疑问或需要帮助？请联系我们随时准备帮助您的专家团队。",
+        "getInTouch": "保持联系",
+        "phone": {
+            "title": "电话",
+            "number": "+963 950 016 833"
+        },
+        "email": {
+            "title": "电子邮件",
+            "address": "info@963sy.com"
+        },
+        "address": {
+            "title": "地址",
+            "location": "叙利亚大马士革马尔杰广场"
+        },
+        "workingHours": {
+            "title": "工作时间",
+            "mondayToThursday": "开放",
+            "fridaySaturday": "每天"
+        },
+        "sendMessage": "给我们发送消息",
+        "name": "您的姓名",
+        "emailAddress": "电子邮件地址",
+        "subject": "主题",
+        "message": "您的消息",
+        "submitButton": "发送消息",
+        "successMessage": "您的消息已成功发送。我们将尽快回复您！",
+        "errorMessage": "发送消息时出现错误。请稍后再试。"
+    },
+    "footer": {
+        "description": "您通往叙利亚心脏的门户。探索古老奇迹、充满活力的文化和难忘的体验。",
+        "quickLinks": "快速链接",
+        "support": "支持",
+        "contactUs": "联系我们",
+        "address": "叙利亚大马士革杰拉马纳，纳斯姆街",
+        "phone": "+963 950 016 833",
+        "email": "info@963sy.com",
+        "privacy": "隐私政策",
+        "contact": "联系我们",
+        "copyright": "版权所有。"
+    },
+    "destinationsSite": {
+        "title": "探索叙利亚的壮丽目的地",
+        "subtitle": "沉浸在叙利亚丰富多彩的文化和自然奇观中",
+        "button": "探索更多"
+    },
+    "cities": {
+        "featuredTitle": "精选叙利亚城市"
+    },
+    "sites": {
+        "loadingSites": "正在加载景点...",
+        "noSitesFound": "在此位置未找到旅游景点。",
+        "discoverSubtitle": "探索{{cityName}}的{{categoryName}}"
+    },
+    "gallery2": {
+        "sectionTitle": "探索叙利亚旅游",
+        "sectionSubtitle": "在世界最美丽的旅游目的地之一发现美景、文化和历史。",
+        "items": [
+            {
+                "title": "发现叙利亚",
+                "description": "探索丰富的遗产、壮丽的景观和古代文明。"
+            },
+            {
+                "title": "文化活动",
+                "description": "展示音乐、舞蹈和传统的节日和庆祝活动。"
+            },
+            {
+                "title": "历史遗址",
+                "description": "遍布全国的古代遗迹、堡垒和考古地标。"
+            },
+            {
+                "title": "美食与好客",
+                "description": "品尝美味的叙利亚菜肴，享受无与伦比的热情好客。"
+            },
+            {
+                "title": "自然与冒险",
+                "description": "山脉、海岸和沙漠，带来难忘的旅程。"
+            },
+            {
+                "title": "经济效益",
+                "description": "旅游业促进经济发展并提供就业机会。"
+            },
+            {
+                "title": "宗教旅游",
+                "description": "发现宗教地标和精神目的地。"
+            },
+            {
+                "title": "世界遗产",
+                "description": "反映叙利亚对世界文明影响的联合国教科文组织遗址。"
+            },
+            {
+                "title": "风景摄影胜地",
+                "description": "从堡垒到海岸 — 拍摄精彩旅行照片的完美地点。"
+            }
+        ],
+        "noItemsMessage": "图库项目目前不可用。"
+    },
+    "common": {
+        "explore": "探索",
+        "back": "返回"
+    },
+    "signVideo": {
+        "noVideo": "没有可用的手语视频"
+    },
+    "video": {
+        "noVideo": "没有可用的视频"
+    },
+    "siteInfo": {
+        "noDetailedInfo": "此站点没有详细信息可用。"
+    },
+    "imageGallery": {
+        "noImages": "此地点没有可用的图片。",
+        "of": "/"
+    },
+    "search": {
+        "loading": "加载中...",
+        "noResults": "未找到结果"
+    },
+    "actions": {
+        "location": "前往位置",
+        "info": "信息",
+        "sign": "手语",
+        "virtual": "虚拟漫游",
+        "images": "图片",
+        "video": "视频播放器",
+        "videoPlayer2": "视频播放器 2"
+    },
+    "virtualVisit": {
+        "loading": "正在加载虚拟游览...",
+        "error": "加载虚拟游览失败。请稍后再试。",
+        "notAvailable": "此位置没有可用的虚拟游览",
+        "fullscreen": "全屏"
+    },
+    "mainSwiper": {
+        "loading": "正在加载精选地点...",
+        "retrying": "正在重试加载精选地点... ({{current}}/{{max}})",
+        "error": "加载精选地点失败",
+        "noPlaces": "没有可用的精选地点"
+    },
+    "actionSection": {
+        "loading": "正在加载...",
+        "pleaseWait": "请稍候，我们正在加载详细信息。"
+    },
+    "loadingCategoryInfo": "请稍候，我们正在加载类别信息",
+    "privacy": {
+        "title": "隐私政策",
+        "intro1": "ArtFly 设计了 963 应用作为免费应用程序。本服务由 ArtFly 免费提供，按原样使用。",
+        "intro2": "本页面用于告知访问者有关我们收集、使用和披露个人信息的政策，如果有人决定使用我们的服务。",
+        "intro3": "如果您选择使用我们的服务，即表示您同意与本政策相关的所有信息。我们不会将您的信息用于或与任何其他个人或公司共享。",
+        "intro4": "本隐私政策中使用的术语与我们的条款和条件中的含义相同，除非本隐私政策中另有定义，这些条款和条件可在 963 应用中访问。",
+        "collection": {
+            "title": "信息收集与使用",
+            "text": "为了在您使用我们的服务时为您提供安全的体验，我们不会要求您提供可识别个人身份的信息或任何其他类型的数据，也不会请求访问您的移动设备。我们请求的信息将按照本隐私政策的描述进行保留和使用。"
+        },
+        "cookies": {
+            "title": "Cookies",
+            "text1": "Cookies 是包含少量数据的文件，通常用作匿名唯一标识符。它们会从您访问的网站发送到您的浏览器，并存储在您的设备内部存储中。",
+            "text2": "本服务从不使用“Cookies”。"
+        },
+        "providers": {
+            "title": "服务提供商",
+            "text1": "我们可能会因以下原因雇佣第三方公司和个人：",
+            "list1": "协助我们提供服务；",
+            "list2": "代表我们提供服务；",
+            "list3": "执行与服务相关的服务；",
+            "list4": "协助我们分析服务的使用方式。",
+            "text2": "我们想告知本服务的用户，这些第三方无法访问您的个人信息。"
+        },
+        "security": {
+            "title": "安全",
+            "text": "该应用程序不会收集任何个人信息，不会请求访问移动数据或信息的权限，也不会收集您的地理位置信息。"
+        },
+        "links": {
+            "title": "其他网站的链接",
+            "text": "本服务可能包含指向其他网站的链接，包括我们的社交媒体平台。如果您点击第三方链接，您将被引导至该网站。请注意，这些外部网站并非由我们运营。因此，我们强烈建议您查看这些网站的隐私政策。我们无法控制，也不承担任何第三方网站或服务的内容、隐私政策或做法的责任。"
+        },
+        "children": {
+            "title": "儿童隐私",
+            "text": "本服务适用于所有年龄和性别。不显示任何有害内容，内容会被积极审核。"
+        },
+        "changes": {
+            "title": "隐私政策的变更",
+            "text": "我们可能会不时更新我们的隐私政策。因此，建议您定期查看本页面以了解任何更改。我们将在本页面发布新的隐私政策以通知您任何更改。",
+            "effective": "本政策自 2023-06-17 起生效"
+        },
+        "contact": {
+            "title": "联系我们",
+            "text": "如果您对我们的隐私政策有任何疑问或建议，请随时通过以下方式联系我们",
+            "email": "info@963sy.sy"
+        }
+    }
+}

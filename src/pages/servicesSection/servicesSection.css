@@ -1,0 +1,430 @@
+/* Base Styles */
+.services-platform {
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+.services-platform .services-container {
+    max-width: 1200px;
+    margin: 2rem;
+    padding: 0 1rem;
+}
+
+/* Service Card Styles with AOS enhancements */
+/* Staggered Animation Styles */
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    will-change: opacity, transform;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, opacity;
+    transform: translateY(0);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Fade-in animation for cards */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* AOS fallback styles with staggered delay */
+[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+        opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Add animation for when cards are filtered out */
+.service-card.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+/* Add animation for when new cards appear */
+.service-card.fade-in {
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Transition group for smooth list changes */
+.services-grid-transition-group {
+    position: relative;
+}
+
+/* Ensure cards maintain their position during animation */
+.service-card {
+    position: relative;
+    z-index: 1;
+}
+
+/* Enhance rating badge */
+.rating-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #f26a1b;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.rating-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rating-icon {
+    color: #f26a1b;
+}
+
+/* Add a subtle hover effect to images */
+.service-image {
+    transition: transform 0.5s ease;
+}
+
+.service-card:hover .service-image {
+    transform: scale(1.05);
+}
+
+/* Add a gradient overlay to images */
+.service-image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.4)
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.service-card:hover .service-image-container::after {
+    opacity: 1;
+}
+
+.service-image-container {
+    position: relative;
+    height: 10rem;
+    overflow: hidden;
+}
+
+@media (min-width: 640px) {
+    .service-image-container {
+        height: 12rem;
+    }
+}
+@media (max-width: 1397px) {
+    .services-platform .services-container {
+    }
+}
+
+.service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-details {
+    padding: 1rem;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.service-header h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.service-price {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.service-location {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.location-icon {
+    margin-right: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.service-description {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.service-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-btn {
+    color: #f26a1b;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.details-btn:hover {
+    color: #ed6313;
+}
+
+.navigate-btn {
+    background-color: #f26a1b;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigate-btn:hover {
+    background-color: #ed6313;
+}
+
+.navigate-icon {
+    margin-right: 0.25rem;
+    font-size: 0.75rem;
+}
+
+/* Loading Spinner */
+
+/* City Select for Mobile View */
+.city-select {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.city-select .ant-select-selector {
+    height: 44px !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    display: flex;
+    align-items: center;
+}
+
+.city-select .ant-select-selection-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Pagination */
+.pagination-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.ant-pagination-item-active {
+    border-color: #f26a1b !important;
+}
+
+.ant-pagination-item-active a {
+    color: #f26a1b !important;
+}
+
+/* RTL Pagination Styles */
+[dir="rtl"] .ant-pagination {
+    direction: rtl;
+}
+
+[dir="rtl"] .ant-pagination-prev {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+[dir="rtl"] .ant-pagination-next {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .ant-pagination-jump-prev,
+[dir="rtl"] .ant-pagination-jump-next {
+    transform: rotate(180deg);
+}
+
+[dir="rtl"] .ant-pagination-prev .ant-pagination-item-link,
+[dir="rtl"] .ant-pagination-next .ant-pagination-item-link {
+    transform: rotate(180deg);
+}
+
+/* Responsive Styles */
+@media (min-width: 640px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .services-grid {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
+
+/* Star Filter Styles */
+.star-filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.star-filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+}
+
+.ant-radio-button-wrapper-checked {
+    background-color: #f26a1b !important;
+    border-color: #f26a1b !important;
+    color: white !important;
+}
+
+.ant-radio-button-wrapper-checked:before {
+    background-color: #f26a1b !important;
+}
+
+.ant-radio-button-wrapper:hover {
+    color: #f26a1b !important;
+}
+
+.ant-radio-button-wrapper-checked:hover {
+    color: white !important;
+}
+
+@media (max-width: 640px) {
+    .star-filter-group {
+        justify-content: center;
+    }
+    .services-platform .services-container {
+        margin: 1rem auto;
+    }
+    .star-filter-btn {
+        min-width: 50px;
+        padding: 0 10px;
+    }
+}
+
+/* Sidebar container with scrolling */
+.services-sidebar-container {
+    max-height: calc(100vh - 150px);
+    padding-top: 1rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #f26a1b #f1f1f1;
+}
+
+.services-sidebar-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.services-sidebar-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.services-sidebar-container::-webkit-scrollbar-thumb {
+    background: #f26a1b;
+    border-radius: 10px;
+}
+
+/* Pulse highlight animation for active service button */
+@keyframes pulse-highlight {
+    0% {
+        box-shadow: 0 0 0 0 rgba(242, 106, 27, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(242, 106, 27, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(242, 106, 27, 0);
+    }
+}
+
+.pulse-highlight {
+    animation: pulse-highlight 1s ease-out;
+}

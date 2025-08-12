@@ -1,0 +1,444 @@
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Main Container */
+.cities.section-container {
+  padding: 0 1rem 3rem;
+  background: linear-gradient(to bottom, #fafafa, #f0f0f0);
+  min-height: 100vh;
+}
+
+/* Header Section */
+.cities .header-container {
+  position: relative;
+  height: 400px;
+  margin: 0 -1rem 4rem -1rem;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cities .header-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cities .header-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(242, 106, 27, 0.6)
+  );
+  z-index: 1;
+}
+
+.cities .header-title {
+  position: relative;
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 800;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.cities .header-subtitle {
+  position: relative;
+  color: white;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 400;
+  max-width: 90%;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  line-height: 1.4;
+}
+
+/* Section Title */
+.cities .section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin-bottom: 3rem;
+  color: #333;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.cities .section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #f26a1b, #ff9e4f);
+  border-radius: 2px;
+}
+
+/* Cards Container */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Card Styles */
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: fadeIn 0.6s ease forwards;
+  opacity: 0;
+  position: relative;
+  border: 1px solid rgba(242, 106, 27, 0.1);
+  height: fit-content;
+}
+
+/* Animation delays for 6 cards */
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
+.card:nth-child(5) { animation-delay: 0.5s; }
+.card:nth-child(6) { animation-delay: 0.6s; }
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(242, 106, 27, 0.15);
+}
+
+.card:hover .card-image::after {
+  opacity: 0.3;
+}
+
+.card:hover .card-content {
+  transform: translateY(-5px);
+}
+
+.card:hover .card-button {
+  background: #f26a1b;
+  transform: scale(1.02);
+}
+
+.card:hover .city-title {
+  color: #f26a1b;
+}
+
+/* Card Image */
+.card-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(242, 106, 27, 0),
+    rgba(242, 106, 27, 0.4)
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+/* Card Content */
+.cities .card-content {
+  padding: 1.5rem;
+  transition: transform 0.4s ease;
+  position: relative;
+  background: white;
+}
+
+.city-title {
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  margin-bottom: 0.8rem;
+  color: #333;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  line-height: 1.3;
+}
+
+.city-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 4.8rem;
+}
+
+.card-button {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(90deg, #f26a1b, #ff9e4f);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(242, 106, 27, 0.3);
+}
+
+.card-button:active {
+  transform: scale(0.98);
+}
+
+/* Loading Container */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Transition Effects */
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .cities.section-container {
+    padding: 0 1.5rem 3rem;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .cities .header-container {
+    height: 350px;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .cities.section-container {
+    padding: 0 1rem 2rem;
+  }
+
+  .cities .header-container {
+    height: 280px;
+    margin: 0 -1rem 2rem -1rem;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .cities .header-image {
+    padding: 1.5rem;
+  }
+
+  .cities .section-title {
+    margin-bottom: 2rem;
+  }
+
+  .cities .section-title::after {
+    width: 60px;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 500px;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+
+  .cities .card-content {
+    padding: 1.2rem;
+  }
+
+  .city-description {
+    min-height: 4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  /* Disable hover effects on mobile */
+  .card:hover {
+    transform: none;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover .card-content {
+    transform: none;
+  }
+
+  .card:hover .card-button {
+    background: linear-gradient(90deg, #f26a1b, #ff9e4f);
+    transform: none;
+  }
+
+  .card:hover .city-title {
+    color: #333;
+  }
+
+  .card:hover .card-image img {
+    transform: none;
+  }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+  .cities.section-container {
+    padding: 0 0.8rem 2rem;
+  }
+
+  .cities .header-container {
+    height: 220px;
+    margin: 0 -0.8rem 1.5rem -0.8rem;
+    border-radius: 0 0 12px 12px;
+  }
+  .cities .header-title {
+  margin-bottom: 0rem;
+  }
+
+  .cities .header-image {
+    padding: 1rem;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .card-image {
+    height: 160px;
+  }
+
+  .cities .card-content {
+    padding: 1rem;
+  }
+
+  .city-description {
+    min-height: 3.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-button {
+    padding: 0.7rem 1rem;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 320px) {
+  .cities .header-container {
+    height: 220px;
+  }
+
+  .card-image {
+    height: 140px;
+  }
+
+  .cities .card-content {
+    padding: 0.8rem;
+  }
+}
+
+/* RTL Pagination Styles */
+[dir="rtl"] .ant-pagination {
+  direction: rtl;
+}
+
+[dir="rtl"] .ant-pagination-prev {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+[dir="rtl"] .ant-pagination-next {
+  margin-right: 8px;
+  margin-left: 0;
+}
+
+[dir="rtl"] .ant-pagination-jump-prev,
+[dir="rtl"] .ant-pagination-jump-next {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .ant-pagination-prev .ant-pagination-item-link,
+[dir="rtl"] .ant-pagination-next .ant-pagination-item-link {
+  transform: rotate(180deg);
+}
+

@@ -1,0 +1,201 @@
+/* Custom Swiper Navigation Buttons */
+.image-gallery .swiper-button-next,
+.swiper-button-prev {
+  background: rgba(255, 255, 255, 0.9) !important;
+  padding: 20px !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  margin-top: -25px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  transition: all 0.3s ease !important;
+}
+
+.image-gallery .swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 1) !important;
+  transform: scale(1.1) !important;
+}
+
+.image-gallery .swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+/* Custom Pagination Bullets */
+.image-gallery .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.image-gallery .swiper-pagination-bullet-active {
+  background: #F26A1B !important;
+}
+
+/* Thumbnail Active State */
+.image-gallery .swiper-slide-thumb-active img {
+  border-color: #F26A1B !important;
+  opacity: 1 !important;
+}
+
+/* Image Hover Effects */
+.image-gallery .gallery-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-gallery .gallery-image-container img {
+  transition: transform 0.3s ease;
+}
+
+.image-gallery .gallery-image-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Custom Loading Animation */
+@keyframes pulse-primary {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.loading-pulse {
+  animation: pulse-primary 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+ .image-gallery .gallery-title {
+    font-size: 2rem;
+  }
+
+ .image-gallery .image-overlay-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Enhanced Shadow Effects */
+.gallery-card {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient Overlays */
+.gradient-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 50%,
+    transparent 100%
+  );
+}
+
+/* Stats Cards Animation */
+.stats-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15);
+}
+
+/* Custom Scrollbar for Thumbnails */
+.swiper-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.swiper-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+.swiper-container::-webkit-scrollbar-thumb {
+  background: #F26A1B;
+  border-radius: 2px;
+}
+
+.swiper-container::-webkit-scrollbar-thumb:hover {
+  background: #F26A1B;
+}
+
+/* Image Loading State */
+.image-loading {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: -20px !important;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 14px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+
+/* Accessibility Improvements */
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: 2px solid #F26A1B;
+  outline-offset: 2px;
+}
+
+.swiper-pagination-bullet:focus {
+  outline: 2px solid #F26A1B;
+  outline-offset: 2px;
+}
+
+/* Image Error State */
+.image-error {
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Performance Optimizations */
+.swiper-slide img {
+  will-change: transform;
+}
+
+.swiper-slide {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+

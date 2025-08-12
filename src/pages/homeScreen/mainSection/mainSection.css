@@ -1,0 +1,112 @@
+.main-section {
+  @apply relative text-white pb-[30px] pt-[100px] md:py-[100px] min-h-screen flex items-center;
+}
+
+.main-section::before {
+  @apply content-[''] absolute inset-0 bg-black/80 z-10;
+}
+
+.main-section .container {
+  @apply flex items-center gap-[40px] md:gap-[100px] justify-between max-w-[1200px] mx-auto px-5 relative z-20;
+}
+
+.main-section .text-content {
+  @apply flex-1 max-w-[500px] flex flex-col items-center md:items-start;
+}
+
+.main-section .title-group {
+  @apply mb-8;
+}
+
+.main-section .pre-title {
+  @apply block text-[#f26a1b] text-xl tracking-wider mb-2.5;
+}
+
+.main-section .main-title {
+  @apply text-5xl md:text-7xl font-bold leading-none m-0;
+}
+
+.main-section .title-part-1 {
+  @apply text-primary-500;
+}
+
+.main-section .title-part-2 {
+  @apply text-white;
+}
+
+.main-section .title-divider {
+  @apply w-20 h-1 bg-[#f26a1b] my-5 rounded-full;
+}
+
+.subtitle {
+  @apply text-2xl font-light mt-2.5;
+}
+
+.description {
+  @apply text-lg leading-relaxed mb-8;
+}
+
+.main-section .explore-btn {
+  @apply bg-[#f26a1b] text-white px-8 py-3 rounded-full font-semibold flex items-center gap-2.5 transition-all duration-300;
+}
+
+.main-section .explore-btn:hover {
+  @apply bg-primary-400 -translate-y-1;
+}
+
+.arrow-icon {
+  @apply w-5 h-5;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.main-section .swiper-content {
+  @apply flex-1 w-[450px] h-[450px] ml-12 ;
+}
+
+.main-section .syrian-sites-swiper {
+  @apply rounded-xl overflow-hidden shadow-xl;
+}
+
+.main-section .swiper-slide-content {
+  @apply h-[500px] bg-cover bg-center relative;
+}
+.main-section .swiper-content .swiper {
+  @apply h-full;
+}
+
+.main-section .slide-overlay {
+  @apply absolute inset-0 bg-gradient-to-t from-black/70 to-black/20;
+}
+
+/* Swiper pagination customization */
+.main-section .swiper-pagination-bullet {
+  @apply bg-white opacity-60 w-2.5 h-2.5;
+}
+
+.main-section .swiper-pagination-bullet-active {
+  @apply bg-[#f26a1b] opacity-100;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .main-section .container {
+    @apply flex-col;
+  }
+
+  .main-section .text-content {
+    @apply max-w-full  text-center;
+  }
+
+  .main-section .title-divider {
+    @apply mx-auto;
+  }
+
+  .main-section .swiper-content {
+    @apply ml-0 max-w-full w-full;
+  }
+}
+

@@ -1,0 +1,123 @@
+.gallery-section {
+  @apply py-16 px-4 flex flex-col items-center justify-center md:px-8 bg-gray-100 h-screen;
+}
+.gallery-title {
+  @apply text-4xl hidden md:block font-bold text-gray-800 mb-12 relative pb-2 text-center;
+}
+.gallery-title::after {
+  @apply content-[''] absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-primary-500 to-primary-300 rounded;
+}
+.gallery-section .content-container {
+  @apply max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-0 md:gap-12;
+}
+
+.gallery-section .text-content {
+  @apply flex-1 lg:pr-12  ;
+}
+
+.gallery-section .section-label {
+  @apply text-primary-500 font-medium uppercase tracking-wider text-sm;
+}
+
+.gallery-section .section-title {
+  @apply text-3xl md:text-4xl font-bold text-gray-800 mt-2 mb-2  md:mt-4 md:mb-6;
+}
+
+ .gallery-section .title-divider {
+  @apply w-16 h-1 bg-gradient-to-r from-primary-500 to-primary-300 rounded-full mb-4 md:mb-8;
+  @apply mx-auto lg:mx-0;
+}
+
+.gallery-section.section-description {
+  @apply text-gray-600 text-lg leading-relaxed mb-4  md:mb-8 max-w-2xl;
+  @apply mx-auto lg:mx-0;
+}
+
+.gallery-section .explore-button {
+  @apply px-8 py-3 bg-primary-500 text-white font-medium rounded-full;
+  @apply transition-all duration-300 hover:bg-primary-600 hover:shadow-lg;
+}
+
+.gallery-section .swiper-container {
+  @apply flex-1 w-full lg:w-auto;
+}
+
+.gallery-section .destination-swiper {
+  @apply w-full max-w-2xl lg:max-w-3xl;
+}
+
+.gallery-section .slide-image-container {
+  @apply relative rounded-xl overflow-hidden;
+  border-radius: 12px;
+}
+
+.gallery-section .slide-image {
+  @apply w-full h-full object-cover;
+  aspect-ratio: 4/3;
+}
+
+.gallery-section .image-overlay {
+  @apply absolute inset-0 bg-gradient-to-t from-black/40 to-transparent;
+}
+
+.gallery-section .swiper-slide {
+  @apply w-60 md:w-96;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Swiper pagination bullets */
+.gallery-section .swiper-pagination-bullet {
+  @apply bg-gray-300 opacity-80;
+}
+
+.gallery-section .swiper-pagination-bullet-active {
+  @apply bg-primary-500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .gallery-section .content-container {
+    @apply flex-col w-full;
+  }
+
+   .gallery-section .text-content {
+    @apply mb-12 pr-0;
+  }
+
+  .section-title, .section-description {
+    @apply text-center;
+  }
+
+  .title-divider {
+    @apply mx-auto;
+  }
+
+  .explore-button {
+    @apply mx-auto;
+  }
+}
+
+/* Add these styles to your existing CSS */
+
+.loading-container, .error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.loading-container p, .error-container p {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #666;
+}
+
+.error-container p {
+  color: #f5222d;
+}
